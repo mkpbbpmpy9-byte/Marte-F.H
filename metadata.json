@@ -1,0 +1,6 @@
+{
+  "name": "Marte Frantzen Håheim — Portfolio & Visual Builder",
+  "description": "Industrial and product design portfolio for Marte Frantzen Håheim featuring an exact replica of the reference layout with live visual editing and site management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

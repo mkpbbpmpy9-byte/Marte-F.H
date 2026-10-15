@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@font-face {
+  font-weight: 400;
+  font-family: 'CircularStd';
+  font-style: normal;
+  src: url("https://c-p.rmcdn.net/custom-fonts/font-e11b9a22-4e37-4f82-ad79-7bff95905e42.ttf") format('truetype');
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: 'CircularStd';
+  font-style: normal;
+  src: url("https://c-p.rmcdn.net/custom-fonts/font-6a1554f9-5449-497b-b023-aa6b82124a4d.ttf") format('truetype');
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: 'CircularStd';
+  font-style: normal;
+  src: url("https://c-p.rmcdn.net/custom-fonts/font-38d2cba4-c855-4a64-989b-7e2e0fb540b5.ttf") format('truetype');
+}
+
+@layer base {
+  :root {
+    --font-primary: 'CircularStd', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-primary);
+    background-color: #FFFFFF;
+    color: #000000;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/* Minimal scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
